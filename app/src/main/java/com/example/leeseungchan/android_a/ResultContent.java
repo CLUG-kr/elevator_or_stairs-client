@@ -13,8 +13,8 @@ import android.widget.TextView;
 
 public class ResultContent extends LinearLayout {
 
-    private ImageView imageView;
-    private TextView time;
+    ImageView imageView;
+    TextView time;
 
     public ResultContent(Context context){
         super(context);
