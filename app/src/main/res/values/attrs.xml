@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="InfoView">
+        <attr name="info_name" format="reference|string"/>
+        <attr name="info_example" format="reference|string"/>
+    </declare-styleable>
+
+    <declare-styleable name="ResultContent">
+        <attr name="image" format="integer"/>
+        <attr name="time" format="string"/>
+    </declare-styleable>
+</resources>

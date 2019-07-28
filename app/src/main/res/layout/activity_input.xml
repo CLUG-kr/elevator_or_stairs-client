@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/input_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserInput"
+    android:orientation="vertical">
+
+    <com.example.leeseungchan.android_a.InfoView
+        android:id="@+id/building_id"
+        style="@style/input"
+        app:info_name="건물번호"
+        app:info_example="예) 310관 "/>
+
+
+    <com.example.leeseungchan.android_a.InfoView
+        android:id="@+id/current_floor"
+        style="@style/input"
+        app:info_name="현재 층"
+        app:info_example="예) 3층" />
+
+    <com.example.leeseungchan.android_a.InfoView
+        android:id="@+id/target_floor"
+        style="@style/input"
+        app:info_name="목표 층"
+        app:info_example="예) 10층" />
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/send_user_input"
+            android:layout_width="254dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</LinearLayout>
